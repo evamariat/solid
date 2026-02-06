@@ -31,21 +31,9 @@ Example Response
   "timestamp": "2026-02-06T09:43:00Z"
 }
 
-Development Commands
+
 # Development server
 npm run dev
 
-# Build for production
-npm run build
-
-# Start production server
-npm start
-
-# Lint code
-npm run lint
-
-
-Docker usage
-
-# Start development environment
+# Docker usage
 docker compose up
