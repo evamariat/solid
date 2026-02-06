@@ -21,11 +21,10 @@ app.get('/', (req, res) => {
       "id":"2",
       "title":"Game Review: Pokemon Brillian Diamond"
     },
-    {
-      "id":"3",
-      "title":"Show Review: Alice in Borderland"
-    }
-  ])
+    timestamp: new Date().toISOString()
+  };
+
+  res.json(response);
 })
 
 app.post('/', (req, res) => {
