@@ -1,11 +1,14 @@
-const express = require('express')
-const cors = require('cors')
+import express from 'express';
+import cors from 'cors';
+import responseMiddleware from './middleware/response.js';  // Note .js extension
 
 const app = express()
 
 app.use(cors())
 
-app.use(express.json());
+app.use(express.json())
+
+app.use(responseMiddleware)
 
 const reviews = [
   { id: "1", title: "Book Review: The Name of the Wind" },
