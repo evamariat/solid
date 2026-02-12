@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon -L app.js",
-    "lint": "eslint . '!.myblog/**'",
-    "lint:fix": "eslint . '!.myblog/**' --fix"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "author": "",
   "license": "ISC",
