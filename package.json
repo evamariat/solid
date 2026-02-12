@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon -L app.js",
     "lint": "eslint . --ignore-path .eslintignore",
-    "lint:fix": "eslint . --ignore-pattern .eslintignore --fix"
+    "lint:fix": "eslint . --ignore-path .eslintignore --fix"
   },
   "author": "",
   "license": "ISC",
