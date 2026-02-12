@@ -1,5 +1,6 @@
 {
-  "name": "complete-docker",
+  "name": "solid",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,11 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
+    "cors": "^2.8.6",
     "express": "^4.17.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11",
-    "eslint": "v10.0.0"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "globals": "^17.3.0",
+    "nodemon": "^3.1.11"
   }
 }
